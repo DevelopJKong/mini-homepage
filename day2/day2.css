@@ -1,0 +1,28 @@
+html,body{
+    width:100vw;
+    height:100vh;
+}
+
+
+.header__border{
+    width:90%;
+  
+    border-bottom:1px solid black;
+}
+
+h2{
+    color:red;
+
+}
+
+p span {
+    font-weight:bold;
+}
+
+.first__column__p{
+    font-size:10px;
+}
+
+.second__box ul li:last-child{
+    font-size:10px;
+}

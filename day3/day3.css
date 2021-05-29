@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding:wght@700&family=Nanum+Pen+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jua&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gamja+Flower&display=swap');
+
+html,body{
+    width:100vw;
+    height:100vh;
+}
+
+.header__border{
+    width:90%;
+    border-bottom:1px solid black;
+    font-family: 'Gamja Flower', cursive;
+}
+
+
+header h3 {
+    font-family: 'Nanum Pen Script', cursive;
+}
+
+ul{
+    font-family: 'Jua', sans-serif;
+}
+
+
+h2{
+    color:red;
+    font-family: 'Gamja Flower', cursive;
+}
+
+p span {
+    font-weight:bold;
+    font-family: 'Gamja Flower', cursive;
+}
+
+p {
+    font-family: 'Gamja Flower', cursive;
+}
+
+.first__column__p{
+    font-size:10px;
+}
+
+.second__box ul li:last-child{
+    font-size:10px;
+}
