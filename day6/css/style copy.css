@@ -38,7 +38,6 @@ html,body{
     height:87%;
     border: 5px dashed white;
     padding: 1%;
-    border-radius: 5%;
 
 }
 
@@ -46,60 +45,53 @@ html,body{
 .main-content__content-box__inner{
     width:100%;
     height:100%;
-    background:#a4b0be;
-    display: grid;
-    grid-template-columns: 1fr 1.2fr 0.5fr;
-    border-radius:5%;
+    background:white;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
   
 }
 
-
-.inner__first{
-    width:100%;
-    height:100%;
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+.inner__first-box {
+    width:25%;
+    height:90%;
+    background-color:white;
+    margin-left: 20px;
 }
 
-.inner__first__real-content{
-    width: 85%;
-    height:80%;
-    border:1px solid black;
+.inner__first-box__main{
+    width:100%;
+    height:90%;
+    border: 3px solid black;
     border-radius: 5%;
+
+}
+
+.inner__second-box{
+    width:50%;
+    height:90%;
     background-color:white;
 }
 
-.inner__second{
+.inner__second-box__main{
     width:100%;
-    height:100%;
-    display:flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-}
-
-.inner__second__real-content{
-    width:100%;
-    height:80%;
-    border: 1px solid black;
+    height:90%;
+    border: 3px solid black;
     border-radius: 5%;
-    background-color:white;
 }
 
-.inner__third{
-    width:100%;
+
+.inner__third-box{
+    width:20%;
     height:100%;
     display:flex;
     align-items: center;
-   
+  
 }
 
-.inner__third__real-content{
+.inner__third-box__main{
     width:90%;
     height:90%;
-    border: 1px solid black;
+    border:2px solid gray;
 
 }
-
