@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Gamja+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jua&display=swap');
 html,body{
     width:100vw;
     height:100vh;
@@ -12,7 +14,7 @@ html,body{
 }
 
 *{
-    
+    font-family: 'Jua', sans-serif;
 }
 
 
@@ -73,7 +75,7 @@ p{
 }
 
 .inner__first__real-content{
-    width: 75%;
+    width: 70%;
     height:80%;
     border:1px solid black;
     border-radius: 5%;
@@ -93,7 +95,7 @@ p{
 .inner__first__real-content__img img{
     width:60%;
     height:80%;
-    background-image: url("http://source.unsplash.com/random");
+    background-image: url("/day7/image/프로파일.png");
     background-position: center center;
     background-size: cover;
 
