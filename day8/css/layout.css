@@ -1,14 +1,11 @@
 @import "/day8/css/font.css";
-@import "/day8/css/home.css";
+@import "/day8/css/reset.css";
 
 .content-wrapper{
     width:70%;
     height:90%;
     position: relative;
 }
-
-
-
 .main-content{
     width:100%;
     height:100%;
@@ -28,10 +25,7 @@
     border: 5px dashed white;
     padding: 1%;
     border-radius: 5%;
-
 }
-
-
 .main-content__content-box__inner{
     width:100%;
     height:100%;
@@ -39,10 +33,7 @@
     display: grid;
     grid-template-columns: 1fr 1.3fr 0.5fr;
     border-radius:5%;
-  
 }
-
-
 .inner__first{
     width:100%;
     height:100%;
@@ -51,7 +42,6 @@
     align-items: center;
     flex-direction: column;
 }
-
 .inner__first__real-content{
     width: 72%;
     height:80%;
@@ -60,9 +50,7 @@
     background-color:white;
     display:grid;
     grid-template-rows: 1.5fr 0.5fr 0.5fr 1fr;
-   
 }
-
 .inner__first__real-content__img{
     width:100%;
     height:100%;
@@ -76,10 +64,7 @@
     background-image: url("/day7/image/프로파일.png");
     background-position: center center;
     background-size: cover;
-
 }
-
-
 .inner__first__real-content__txt{
     width:100%;
     height:100%;
@@ -87,14 +72,11 @@
     justify-content: center;
     align-items: center;
 }
-
 .inner__first__real-content__txt span{
     width:80%;
     height:30%;
     font-size:10px;
 }
-
-
 .inner__first__real-content__last-txt{
     width:100%;
     height:100%;
@@ -103,17 +85,10 @@
     align-items: flex-end;
     padding-left:5%;
 }
-
 .inner__first__real-content__last-txt span{
     width:80%;
     height:30%;
-
 }
-
-
-
-
-
 .inner__first__text{
     width:70%;
     height:7%;
@@ -123,18 +98,11 @@
     align-items: center;
     font-size:12px;
 }
-
 .inner__first__text span:nth-child(2){
     color:red;
     border-right: 1px solid black;
     padding-right: 10px;
-    
 }
-
-
-
-
-
 .inner__second{
     width:100%;
     height:100%;
@@ -143,8 +111,6 @@
     justify-content: center;
     flex-direction: column;
 }
-
-
 .inner__second__text{
     width:100%;
     height:7%;
@@ -153,11 +119,6 @@
     align-items: center;
     justify-content: space-around;
 }
-
-
-
-
-
 .inner__second__real-content{
     width:100%;
     height:80%;
@@ -167,15 +128,12 @@
     display:grid;
     grid-template-rows: repeat(4,1fr);
 }
-
-
 .inner__second__real-content__news{
     width:100%;
     height:100%;
     display:flex;
     justify-content: center;
-    align-items: center;
-   
+    align-items: center; 
 }
 .inner__second__real-content__news__wrapper{
     width:90%;
@@ -183,24 +141,18 @@
     display:flex;
     flex-direction: column;
     justify-content: flex-start;
- 
 }
 .inner__second__real-content__news__wrapper p{
     border-bottom: 1px solid black;
     margin-bottom: 5px;
 }
-
 .wrapper__content{
     width:100%;
     height:20%;
     display:grid;
     grid-template-columns: 0.8fr 2fr 1fr 1fr;
     margin-top:5px;
-    
 }
-
-
-
 .wrapper__content__box-red{
     width:100%;
     height:100%;
@@ -212,7 +164,6 @@
     color:white;
     font-size:12px;
 }
-
 .wrapper__content__box-blue{
     width:100%;
     height:100%;
@@ -224,10 +175,6 @@
     color:white;
     font-size:12px;
 }
-
-
-
-
 .wrapper__content__txt{
     display:flex;
     align-items: center;
@@ -235,7 +182,6 @@
     font-size:10px;
     padding-left:5px;
 }
-
 .wrapper__content__dot{
     font-size:10px;
     display:flex;
@@ -245,20 +191,15 @@
     width:90%;
     height:100%;
 }
-
 .wrapper__content__dot span{
     color:deepskyblue;
 }
-
-
-
 .inner__second__real-content__miniroom{
     width:100%;
     height:100%;
     display:flex;
     justify-content: center;
     align-items: center;
-   
 }
 .inner__second__real-content__miniroom__wrapper{
     width:90%;
@@ -266,29 +207,20 @@
     display:flex;
     flex-direction: column;
     justify-content: flex-start;
- 
 }
 .inner__second__real-content__miniroom__wrapper p{
     border-bottom: 1px solid black;
     margin-bottom: 5px;
 }
-
-
-
-
-
 .inner__third{
     width:100%;
     height:100%;
     display:flex;
     align-items: center;
-   
 }
-
 .inner__third__real-content{
     width:90%;
     height:87%;
     border: 1px solid black;
-
 }
 
