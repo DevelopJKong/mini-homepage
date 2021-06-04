@@ -1,0 +1,44 @@
+.inner__second__profile-content{
+    width: 100%;
+    height: 80%;
+    border: 1px solid black;
+    border-top-left-radius: 5%;
+    border-bottom-left-radius: 5%;
+    background-color: white;
+    display: block;
+    overflow-y:scroll;
+  
+    
+}
+
+
+
+
+.profile-content__first{
+    width:100%;
+    height:100%;
+    display:block;
+ 
+}
+
+
+.profile-content__second{
+    width:100%;
+    height:100%;
+    display:block;
+ 
+}
+
+.profile-content__third{
+    width:100%;
+    height:100%;
+    display:block;
+ 
+}
+
+.profile-content__fourth{
+    width:100%;
+    height:100%;
+    display:block;
+ 
+}

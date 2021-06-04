@@ -1,6 +1,7 @@
-@import "/day9/css/font.css";
-@import "/day9/css/reset.css";
 
+@import "/day10/css/font.css";
+@import "/day10/css/reset.css";
+@import "/day10/css/profile-layout.css";
 .content-wrapper{
     width:70%;
     height:90%;
