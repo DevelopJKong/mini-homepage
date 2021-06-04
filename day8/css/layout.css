@@ -96,7 +96,7 @@
     display:flex;
     justify-content: space-around;
     align-items: center;
-    font-size:12px;
+    font-size:11px;
 }
 .inner__first__text span:nth-child(2){
     color:red;
@@ -210,7 +210,7 @@
     width:90%;
     height:90%;
     display:grid;
-    grid-template-rows: 1fr 14fr;
+    grid-template-rows: 1fr 12fr;
 }
 
 .inner__second__real-content__miniroom--flex{
