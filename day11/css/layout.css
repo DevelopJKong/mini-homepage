@@ -1,7 +1,7 @@
 
-@import "/css/font.css";
-@import "/css/reset.css";
-@import "/css/profile-layout.css";
+@import "/day10/css/font.css";
+@import "/day10/css/reset.css";
+@import "/day10/css/profile-layout.css";
 .content-wrapper{
     width:70%;
     height:90%;
@@ -62,7 +62,7 @@
 .inner__first__real-content__img img{
     width:60%;
     height:80%;
-    background-image: url("/image/프로파일.png");
+    background-image: url("/day7/image/프로파일.png");
     background-position: center center;
     background-size: cover;
 }
@@ -245,6 +245,12 @@
 }
 
 
+
+
+
+
+
+
 .wrapper__content__txt{
     display:flex;
     align-items: center;
@@ -362,9 +368,6 @@
     border-top-right-radius:17%;
     border-bottom-right-radius:17%;
     transition: all .5s;
-    border-top: 1px solid black;
-    border-right: 1px solid black;
-    border-bottom: 1px solid black;
 }
 
 
@@ -377,14 +380,12 @@
 .content__list:nth-child(4){
     width:50%;
     height:50%;
+   
     margin-left:1px;
     background-color:#0abde3;
     border-top-right-radius:17%;
     border-bottom-right-radius:17%;
     transition: all .5s;
-    border-top: 1px solid black;
-    border-right: 1px solid black;
-    border-bottom: 1px solid black;
 
 }
 
@@ -395,14 +396,12 @@
 .content__list:nth-child(5){
     width:50%;
     height:50%;
+  
     margin-left:1px;
     background-color:#0abde3;
     border-top-right-radius:17%;
     border-bottom-right-radius:17%;
     transition: all .5s;
-    border-top: 1px solid black;
-    border-right: 1px solid black;
-    border-bottom: 1px solid black;
 }
 
 .content__list:nth-child(5):hover{
@@ -412,14 +411,12 @@
 .content__list:nth-child(6){
     width:50%;
     height:50%;
+ 
     margin-left:1px;
     background-color:#0abde3;
     border-top-right-radius:17%;
     border-bottom-right-radius:17%;
     transition: all .5s;
-    border-top: 1px solid black;
-    border-right: 1px solid black;
-    border-bottom: 1px solid black;
 }
 .content__list:nth-child(6):hover{
     background-color:#5f27cd;

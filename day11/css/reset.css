@@ -1,7 +1,7 @@
 html,body{
     width:100vw;
     height:100vh;
-    background-image: url("/image/pattern.png");
+    background-image: url("/day5/images/pattern.png");
     background-repeat: repeat;
     background-size: 5%;
     background-color: gray;
